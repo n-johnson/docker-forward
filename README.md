@@ -5,7 +5,7 @@ Docker image to expose a port of an already running container to the host machin
 
 ```
 
-docker run -it -p 5000:5000 --env PORT_LOCAL=5000 --env ADDRESS_REMOTE=172.17.0.2 --env PORT_REMOTE=5432 njohnson/port-forward
+docker run -it -p 5000:5000 --env PORT_LOCAL=5000 --env ADDRESS_REMOTE=172.17.0.2 --env PORT_REMOTE=5432 njohnson/docker-forward
 
 ```
 
